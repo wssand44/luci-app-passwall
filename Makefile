@@ -1,8 +1,13 @@
+# Copyright (C) 2018-2020 Lienol <lawlienol@gmail.com>
+#
+# This is free software, licensed under the GNU General Public License v3.
+#
+
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-passwall
 PKG_VERSION:=3.3
-PKG_RELEASE:=36-20200124
+PKG_RELEASE:=38-20200128
 
 PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 PO2LMO:=./po2lmo
