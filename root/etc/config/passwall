@@ -5,10 +5,10 @@ config global
 	option udp_node1 'nil'
 	option socks5_node1 'nil'
 	option dns_mode 'pdnsd'
-	option up_china_dns '114.114.114.114'
+	option up_china_dns 'default'
 	option dns_forward '8.8.4.4'
 	option use_tcp_node_resolve_dns '1'
-	option dns_53 '1'
+	option dns_53 '0'
 	option proxy_mode 'chnroute'
 	option localhost_proxy_mode 'gfwlist'
 
@@ -61,13 +61,3 @@ config global_subscribe
 config auto_switch
 	option testing_time '3'
 	option enable '0'
-config acl_rule
-	option tcp_redir_ports 'default'
-	option udp_redir_ports 'default'
-	option enabled '1'
-	option remarks 'qnap'
-	option tcp_node '1'
-	option udp_node '1'
-	option proxy_mode 'disable'
-	option ip '192.168.2.128'
-
