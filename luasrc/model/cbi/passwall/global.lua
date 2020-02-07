@@ -41,7 +41,6 @@ if status_use_big_icon and status_use_big_icon == "1" then
 else
     m:append(Template("passwall/global/status2"))
 end
-m:append(Template("passwall/global/myip"))
 
 -- [[ Global Settings ]]--
 s = m:section(TypedSection, "global", translate("Global Settings"))
